@@ -20,7 +20,7 @@ var config = {
                 lat: 52.409538,
                 lon: 16.931992,
                 city: 'poznan',
-		        providers: ["traficar", "easyshare", "lime", "blinkee", "jedenslad"],
+                providers: ["traficar", "easyshare", "lime", "blinkee", "jedenslad"],
                 updateInterval: 120
             }
         }
