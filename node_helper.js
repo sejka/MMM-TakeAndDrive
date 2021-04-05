@@ -14,7 +14,7 @@ module.exports = NodeHelper.create({
                 let vehicles = response;
 
                 var closestVehicles = vehicles
-                    .filter(x => payload.providers.includes(x.id))
+                    .filter(x => payload.providers.includes(x.id) && x.vehicles.length > 0)
                     .map(provider => provider.vehicles.map(vehicle => {
                         vehicle.distance = this.getDistanceFromLatLonInKm(
                             payload.lat,
