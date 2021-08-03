@@ -21,7 +21,7 @@ var config = {
                 lon: 16.931992,
                 city: 'poznan',
                 providers: ["traficar", "easyshare", "lime", "blinkee", "jedenslad"],
-                updateInterval: 120
+                updateInterval: 120000
             }
         }
     ]
@@ -36,4 +36,4 @@ var config = {
 | `lat`            | *Required* latitude of your location
 | `lon`            | *Required* longitude of your location
 | `providers`      | *Required* providers to show (check https://takeanddrive.eu/api/v1/vehicles?city=poznan with your city in url for provider names)
-| `updateInterval` | *Optional* update interval in seconds (default: 600 - 10 min)
+| `updateInterval` | *Optional* update interval in miliseconds (default: 600000 - 10 min)
