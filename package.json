@@ -1,0 +1,22 @@
+{
+    "name": "MMM-TakeAndDrive",
+    "version": "1.0.0",
+    "description": "MagicMirror² module - shows nearest vehicles from https://takeanddrive.eu/",
+    "keywords": [
+        "MagicMirror",
+        "carsharing",
+        "scooters",
+        "cars",
+        "mopeds",
+        "lime"
+    ],
+    "author": "Karol Sejka",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sejka/MMM-TakeAndDrive/issues"
+    },
+    "homepage": "https://github.com/sejka/MMM-TakeAndDrive",
+    "dependencies": {
+        "request": "^2.74.0"
+    }
+}
