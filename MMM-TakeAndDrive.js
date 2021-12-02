@@ -9,7 +9,7 @@
 
 Module.register("MMM-TakeAndDrive", {
 	defaults: {
-		updateInterval: 600000,
+		updateInterval: 600,
 		lat: 0,
 		lon: 0,
 		city: "poznan",
